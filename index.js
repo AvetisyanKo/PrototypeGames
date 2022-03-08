@@ -6,10 +6,12 @@ const backGround = document.createElement("img");
 backGround.src = "https://t3.ftcdn.net/jpg/00/88/98/18/360_F_88981880_YjJManMJ6hJmKr5CZteFJAkEzXIh8mxW.jpg";
 const heroImg = document.createElement("img");
 heroImg.src = "https://c.tenor.com/JkNeDPW3I4oAAAAi/ninja-bear-bam.gif";
-const bulletsImg = document.createElement("img");
-bulletsImg.src = "https://www.seekpng.com/png/full/4-46644_white-ninja-star-ninja-star-png.png";
+/*const bulletsImg = document.createElement("img");
+bulletsImg.src = "https://www.kissclipart.com/ninja-star-clipart-shuriken-clip-art-y2x7rk/";*/
 const enemyImg = document.createElement("img");
 enemyImg.src = "https://www.clipartmax.com/png/full/77-777818_enemy-esports.png"
+const bulletsImg = new Image(100, 200);
+bulletsImg.src = 'bulletsImg.png';
 
 let data = {
     hero: {
